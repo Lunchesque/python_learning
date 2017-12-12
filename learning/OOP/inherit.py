@@ -33,7 +33,6 @@ class Student(SchoolMember):
 
 t = Tearher('Shrividya', 40, 30000)     #создание экземпляра класса Tearher
 s = Student('Swaroop', 25, 75)      #создание экземпляра класса Student
-s = Student('Serg', 24, 84)
 
 print()     #печать пустой строки для отступа
 
