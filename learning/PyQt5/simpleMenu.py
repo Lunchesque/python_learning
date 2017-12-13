@@ -18,7 +18,7 @@ class SimpleMenu(QMainWindow):
         self.statusBar()
 
         menubar = self.menuBar()
-        fileMenu = menubar.addMenu('&File')
+        fileMenu = menubar.addMenu('&exitApp')
         fileMenu.addAction(exitAct)
 
         self.setGeometry(300, 300, 250, 250)
