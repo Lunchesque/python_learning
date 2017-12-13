@@ -11,7 +11,7 @@ class SimpleMenu(QMainWindow):
 
     def initUI(self):
         exitAct = QAction(QIcon('exit.png'), '&Exit', self)
-        exitAct.setShortcut('Ctrl + Q')
+        exitAct.setShortcut('Ctrl+Q')   #при описании шорткатов между между кнопками пробелов не должно быть
         exitAct.setStatusTip('Exit application')
         exitAct.triggered.connect(qApp.quit)
 
