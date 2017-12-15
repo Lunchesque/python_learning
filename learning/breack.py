@@ -4,3 +4,5 @@ while True:
         break
     print('Длинна строки: ', len(s))
 print('Конец')
+
+#try
