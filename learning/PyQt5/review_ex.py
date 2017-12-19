@@ -19,7 +19,7 @@ class Review(QWidget):
 
         titleEdit = QLineEdit()
         authorEdit = QLineEdit()
-        reviewEdit = QLineEdit()
+        reviewEdit = QTextEdit()  #было QLineEdit, а надо для такого QTextEdit
 
         grid = QGridLayout()
         grid.setSpacing(10)
@@ -27,11 +27,11 @@ class Review(QWidget):
         grid.addWidget(title, 1, 0)
         grid.addWidget(titleEdit, 1, 1)
 
-        grid.addWidget(author, 1, 0)
+        grid.addWidget(author, 2, 0)
         grid.addWidget(authorEdit, 2, 1)
 
         grid.addWidget(review, 3, 0)
-        grid.addWidget(reviewEdit, 3, 1, 5, 1)
+        grid.addWidget(reviewEdit, 3, 1, 4, 1)
 
         self.setLayout(grid)
 
