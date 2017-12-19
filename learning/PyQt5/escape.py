@@ -18,8 +18,13 @@ class Escape(QWidget):
         self.setWindowTitle('Реимплеминтация')
         self.show()
 
-    def keyPressEvent(self, q):
 
+#далее идет переопределение (реимплементация) обработчика события keyPressEvent таким образом
+#что по нажатию кнопки Escape закрывается приложение
+    def keyPressEvent(self, q):
+#основное событие закрытия приложение описано в основной петле, перопледелив обработчик
+#можно вызвать это событие другим способом,
+#например нажатие кнопки Escape, за эту кнопку в PyQt5 отвечет Key_Escape
         if q.key() == Qt.Key_Escape:
             self.close()
 
