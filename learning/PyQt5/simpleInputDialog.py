@@ -35,7 +35,7 @@ class InputDialog(QWidget):
 
         #QInputDialog с помошью своего метода getText принимает себе
         #значение титула окна и сообщения в нем,
-        #а также объявялется обработчик (ok) для описания действия
+        #а также объявялется обработчик (ok, значения типа boolean) для описания действия
         #"OK" в диалоговом окне
         text, ok = QInputDialog.getText(self, 'Input Dialog',
             'Enter your name:')
