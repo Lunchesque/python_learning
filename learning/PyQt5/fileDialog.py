@@ -27,7 +27,7 @@ class FileDialog(QMainWindow):
 
         self.toolbar = self.addToolBar('&Open')
         self.toolbar.addAction(openFile)
-
+#На линуксе почему-то не работает меню бар
         menubar = self.menuBar()
         fileMenu = menubar.addMenu('&file')
         fileMenu.addAction(openFile)
