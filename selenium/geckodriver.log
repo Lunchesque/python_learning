@@ -437,3 +437,27 @@
 [Child 9361, Chrome_ChildThread] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 9361, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 9361, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1514276235434	geckodriver	INFO	geckodriver 0.19.1
+1514276235436	geckodriver	INFO	Listening on 127.0.0.1:60983
+1514276236536	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Gz1l3G17ZiEE"
+1514276236844	Marionette	INFO	Enabled via --marionette
+1514276237619	Marionette	INFO	Listening on port 44903
+1514276237659	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514276237702	Marionette	DEBUG	Register listener.js for window 2147483649
+1514276237718	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514276238104	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514276238104	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514276238452	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.python.org/"
+1514276238537	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.python.org/"
+1514276775101	geckodriver	INFO	geckodriver 0.19.1
+1514276775103	geckodriver	INFO	Listening on 127.0.0.1:47517
+1514276776193	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.0TfUQo9CfgZb"
+1514276776505	Marionette	INFO	Enabled via --marionette
+1514276777347	Marionette	INFO	Listening on port 37031
+1514276777402	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514276777443	Marionette	DEBUG	Register listener.js for window 2147483649
+1514276777457	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514276777752	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514276777752	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514276778120	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.python.org/"
+1514276778205	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.python.org/"
