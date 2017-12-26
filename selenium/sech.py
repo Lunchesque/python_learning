@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 class TestPage(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Chrome()
 
     def test_sech(self):
         driver = self.driver
